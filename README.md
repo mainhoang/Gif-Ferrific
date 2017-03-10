@@ -32,5 +32,6 @@ In this assignment, you'll use the GIPHY API to make a dynamic web page that pop
 * JavaScript
 * Jquery
 * CSS
+* Bootstrap
 * AJAX w/API
 * HTML
