@@ -1,10 +1,22 @@
+#gif-display {
+	padding: 40px;
+}
+
 #gif-wrapper .panel-heading {
 	font-size: 16px;
 	font-weight: 700;
 }
 
+.title {
+	font-size: 100px;
+}
+
 .topic-btns {
 	margin: 2px;
+}
+
+.directions {
+	margin-top: 0px;
 }
 
 .gif-div {

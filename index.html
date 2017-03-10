@@ -12,16 +12,21 @@
 
 <body>
     <div class="container">
-        <div id="button-wrapper" class="jumbotron">
-        </div>
+    	<h1 class="title text-center">Gif-Tastic!</h1>
+        <div id="button-wrapper" class="jumbotron"></div>
         <div class="row">
             <main id="gif-wrapper" class="col-lg-9 col-md-9">
                 <div class="panel panel-default">
                     <div class="panel-heading">Your Gifs</div>
                     <div id="gif-display" class="panel-body">
+                        <h1 class="directions">Directions</h1>
+                        <ul>
+                            <li>Enter a topic to create a button.</li>
+                            <li>Click on a button to get your gifs.</li>
+                            <li>Click on the gif to play/pause gif.</li>
+                        </ul>
+                    </div>
                 </div>
-                </div>
-                
             </main>
             <aside id="input-wrapper" class="col-lg-3 col-md-3">
                 <form class="panel panel-default">
@@ -33,7 +38,6 @@
                             <input type="text" id="topic-input" class="form-control">
                         </div>
                         <input type="submit" id="add-topic" class="btn btn-default" value="Add a Topic">
-                        <button type="button" class="btn btn-default">Clear</button>
                     </div>
                 </form>
             </aside>
